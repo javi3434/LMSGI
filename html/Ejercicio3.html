@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <fildset>
+            <legend>Información personal</legend>
+            
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <br><br>
+
+                <labe for="fechaNacimiento">Fecha  de Nacimiento</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+                <br><br>
+
+                <p>Género</p>
+
+                <input type="radio" id="masculino" name="masculino" value="masculino" required> 
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" id="femenino" name="femenino" value="Femenino" required>
+                <label for="femenino">Femenino</label>
+
+                <input type="radio" id="otro" name="otro" value="Otro" required>
+                <label for="otro">Otro</label>
+        </fildset>
+
+        <fieldset>
+            <legend>Información de contacto</legend>
+
+                <label for="email">Dirección de correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="telefono">Número de teléfono</label>
+                <input type="tel" id="telefono"  name="telefono" required>
+                <br><br>
+
+                <label for="direccion">Dirección</label>
+                <br><br>
+                <textarea rows="4" cols="40"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Información de cuenta</legend>
+
+                <label for="nombreUsuario">Nombre usuario</label>
+                <input type="text" id="nombreUsuario" name="nombreUsuario" required>
+                <br><br>
+
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contrasña" name="contraseña" required>
+                <br><br>
+
+                <label for="confirmacion">Connfirmación de contraseña</label>
+                <input type="password" id="confirmacion" name="confirmacion" required>
+                <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferencias</legend>
+
+                <label for="color">Color favorito</label>
+                <select id="color" name="color">
+                    <option value="rojo">Rojo</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                    <option value="amarillo">Amarillo</option>
+                </select>
+                <br><br>
+
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Aceptar términos y condiciones</label>
+                
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>

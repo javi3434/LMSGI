@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    background-image: url(Imagen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 30vh 2rem;
+
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    margin-bottom: 35px;
+}
+
+.hero p {
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+.btn-cta {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
